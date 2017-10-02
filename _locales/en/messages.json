@@ -1,14 +1,14 @@
 ﻿{
     "extName": {
-        "message": "AutoAuth",
+        "message": "AU Authenticator",
         "description": "Extension Name."
     },
     "extShortName": {
-        "message": "AutoAuth",
+        "message": "AUAuth",
         "description": "Extension Short Name."
     },
     "extDesc": {
-        "message": "For Google Authenticator and Battle.net Authenticator.",
+        "message": "Facilitates the 2 factor process on Audi networks.  Source at: https://github.com/sgoertzen/authenticator and forked from: https://github.com/Sneezry/authenticator",
         "description": "Extension Description."
     },
     "added": {
