@@ -8,7 +8,7 @@
         "description": "Extension Short Name."
     },
     "extDesc": {
-        "message": "Facilitates the 2 factor process on Audi networks.  Source at: https://github.com/sgoertzen/authenticator and forked from: https://github.com/Sneezry/authenticator",
+        "message": "Facilitates the 2 factor process on Audi networks.  Source at: https://github.com/sgoertzen/authenticator",
         "description": "Extension Description."
     },
     "added": {
