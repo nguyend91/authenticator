@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "__MSG_extName__",
     "short_name": "__MSG_extShortName__",
-    "version": "4.18",
+    "version": "1.0",
     "default_locale": "en",
     "description": "__MSG_extDesc__",
     "icons": {
@@ -45,12 +45,18 @@
     },
     "content_scripts": [
         {
-            "matches": ["<all_urls>"],
+            "matches": ["https://collaboration.msi.audi.com/twofactor/*"],
             "css": ["css/content.css"],
-            "js": ["javascript/content.js"]
+            "js": [
+                "javascript/content.js",
+                "totp/totp.js",
+                "totp/jssha-1.31.min.js",
+                "javascript/au.js"
+            ]
         }
     ],
     "permissions": [
+        "https://collaboration.msi.audi.com/*",
         "activeTab",
         "storage"
     ],
