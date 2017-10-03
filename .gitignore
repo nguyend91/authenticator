@@ -35,4 +35,8 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+<<<<<<< HEAD
 node_modules/
+=======
+node_modules/
+>>>>>>> 7dc56abcab28cfc7c5100d313a40f7c1a7370cb8
